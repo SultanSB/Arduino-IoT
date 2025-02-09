@@ -1,19 +1,20 @@
-# IoT-Based Real-Time Sensor Monitoring with Firebase and Web Dashboard
+# Pandora's Box Game
 
 ## Overview
-A comprehensive IoT solution that:
-1. Collects real-time sensor data using Arduino/NodeMCU
-2. Transmits data to Firebase Cloud via WiFi
-3. Visualizes readings on a responsive web dashboard
-4. Maintains efficient data logging with low latency
+Pandora's Box is a **multi-stage interactive game** combining hardware (Arduino) and software (IoT/Web). Players progress through 5 unique stages, with real-time data synced to Firebase and displayed on a web dashboard. 
 
 ## Features
-- **Real-Time Monitoring**: Live sensor data updates every 2 seconds
-- **Firebase Integration**: Secure cloud storage with Realtime Database
-- **Responsive Dashboard**: Mobile-friendly web interface
+### Hardware & Gameplay
+- **Stage 1**: Pulse Sensor measures heart rate (BPM) to unlock the game.  
+- **Stage 2**: Flappy Bird clone with physics-based movement on a 1.8" TFT display.  
+- **Stage 3**: Reaction-time test requiring precise button presses under time limits.  
+- **Stage 4**: Potentiometer-controlled dodging game with collision detection.  
+- **Stage 5**: Color-matching puzzle with randomized levels and score tracking. 
 
-## Technologies Used
-
-### Hardware
+### IoT Integration  
+- **Firebase Realtime Database**: Stores scores, stage times, and total points.  
+- **NodeMCU (ESP8266)**: Transmits data from Arduino to Firebase via Wi-Fi.  
+- **Web Dashboard**: Built with HTML/CSS/JavaScript to display live stats, total time, and stage progression.  
+#### Hardware
 - Arduino Uno
 - NodeMCU ESP8266
